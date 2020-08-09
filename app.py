@@ -3,7 +3,6 @@ import pandas as pd
 import pickle
 import streamlit as st
 
-
 pickle_in =  open('BMI_calc.pkl','rb')
 classifier = pickle.load(pickle_in)
 
