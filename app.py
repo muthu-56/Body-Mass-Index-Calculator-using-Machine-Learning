@@ -8,7 +8,6 @@ classifier = pickle.load(pickle_in)
 
 def predict_note_authentication(Gender,Height,Weight):
     prediction = classifier.predict([[Gender,Height,Weight]])
-    print(prediction)
     return prediction        
 
 def main():
