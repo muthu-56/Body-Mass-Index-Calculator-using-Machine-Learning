@@ -37,9 +37,7 @@ def main():
     if result==5:
         st.success("Oops! Your are having Obesity. Please reduce your weight")
     if result==6:
-        st.success("Oops! Your number say you are extremely Obese, keep an close eye on your health")    
-    #st.success("The output is {}".format(result))
-    
+        st.success("Oops! Your number say you are extremely Obese, keep an close eye on your health")      
     
 if __name__=='__main__':
     main()
