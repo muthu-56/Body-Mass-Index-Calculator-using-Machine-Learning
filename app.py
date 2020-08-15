@@ -17,7 +17,7 @@ def main():
     st.markdown("""<div style=text-align:center;"><h2><b>BMI CALCULATION</b></h2></div><br>""",unsafe_allow_html=True)
     html_temp = """
     <div style="background-color:tomato;padding:5px">
-    <h3 style="color:#581845;text-align:center;"><b>Streamlit BMI calculator ML App </b></h3>
+    <h3 style="color:white;text-align:center;"><b>Streamlit BMI calculator ML App </b></h3>
     </div><br>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
