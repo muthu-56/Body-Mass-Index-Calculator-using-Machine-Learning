@@ -1,1 +1,1 @@
-# BodyMassIndex calculator using Machine Learning models
+# Body-Mass-Index calculator using Machine Learning
